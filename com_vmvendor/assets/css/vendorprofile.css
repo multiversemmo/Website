@@ -1,0 +1,152 @@
+@charset "utf-8";
+/* CSS Document */
+
+.vmvthumb {
+	float:left;
+	margin:15px 5px 10px 5px;
+	padding: 15px 15px 15px 15px;
+	background:#fff;
+	-moz-box-shadow:
+	0px 1px 6px #666;
+	-webkit-box-shadow: 0px 1px 6px #666;
+	box-shadow: 0px 1px 6px #666;
+	min-height: 180px;
+	width: 130px;
+     }
+	 
+.prodpic{
+	width:100%;
+	text-align:center;padding:10px 0 10px 0;
+}
+.prodprice{
+	vertical-align:bottom;
+}
+.prodtitle{
+	font-weight:bold;
+	
+}
+.product-edit{
+	text-align:center;
+	padding: 5px 0 0 0;
+	
+	
+}
+.vvmendor-toolbar{
+	width:50%;
+	float:right;
+	text-align:right;
+	a.text-decoration:none
+	
+}
+.vvmendor-toolbar a{
+text-decoration:none
+	
+}
+.vvmendor-toolbar img{
+	vertical-align:middle
+	
+}
+#storename{
+	float:left;
+	padding: 15px 0 0 15px;
+	
+}
+
+#vendor-img{
+	float:left;
+	margin:15px 5px 10px 5px;
+	padding: 15px 15px 15px 15px;
+	background:#fff;
+	-moz-box-shadow:
+	0px 1px 6px #666;
+	-webkit-box-shadow: 0px 1px 6px #666;
+	box-shadow: 0px 1px 6px #666;
+	
+}
+#icon-buttons{
+	padding:5px;	
+	
+}
+.message_good{
+	font-color:green;
+	font-weight:bold;
+}
+#add-product{
+	width:50%;
+	float:right;
+	text-align:right;
+}
+
+#social_share{
+	float:right;
+	width:450px;
+	
+	right:0
+}
+
+
+
+
+dl.tabs {
+    float: left;
+    margin: 50px 0 0 0;
+    z-index: 50;
+    clear:both;
+
+
+}
+
+dl.tabs dt {
+    float: left;
+    padding: 4px 10px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    margin-right: 3px;
+    background: #f0f0f0;
+    color: #666;
+}
+
+dl.tabs dt.open {
+    background: #F9F9F9;
+    border-bottom: 1px solid #F9F9F9;
+    z-index: 100;
+    color: #000;
+
+}
+
+
+.panel h3 a {
+display: block;
+padding: 6px;
+text-decoration: none;
+color: #444;
+font-size: 14px;
+padding: 6px;
+}
+.panel h3.pane-toggler a {
+background: 
+whiteSmoke url(../img/slider_plus.png) right top no-repeat;
+}
+.panel h3.pane-toggler-down a {
+background: 
+whiteSmoke url(../img/slider_minus.png) right top no-repeat;
+border-bottom: solid 1px 
+#DDD;
+}
+div.current {
+clear: both;
+border: 1px solid 
+#CCC;
+padding: 10px 10px;
+background: url(../img/nav_level_1.gif) repeat-x;
+}
+
+#product_in_stock{
+	text-align:right;
+	background-color:#e6e6e6;
+	float:right;
+	min-width:30px;
+	max-width:100px;
+	padding:2px 2px 0 2px;
+}

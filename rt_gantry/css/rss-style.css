@@ -1,0 +1,51 @@
+@import url(http://fonts.googleapis.com/css?family=Gudea:400,700);
+@import url(http://fonts.googleapis.com/css?family=Cabin:400,700);
+@import url(http://fonts.googleapis.com/css?family=Telex);
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+
+#container {
+		overflow:hidden;
+		margin:0 0 0 20px;
+		padding:0;
+		width:925px;
+		height:400px;
+		font-family:'Telex',Arial;
+		font-size:13px;
+		/*border:1px solid #CCCCCC;*/
+}
+
+
+#header {
+		margin:0px;
+		padding:15px;
+		color:#FCDB05;
+		background-color:#3D3D3D;
+}
+              
+#header .feed_title {
+		margin:0;
+		padding:0;
+		font-family:'Cabin',Tahoma, Arial, Helvetica, sans-serif;
+		font-weight:700;
+		font-size:23px;
+}
+
+#header .feed_title a:link{color:#FCDB05;text-decoration:none;}
+#header .feed_title a:visited{color:#FCDB05;text-decoration:none;}
+#header .feed_title a:hover{color:#FCDB05;text-decoration:underline;}
+#header .feed_title a:active{color:#FCDB05;text-decoration:none;}
+
+
+#content{margin:0px;padding:5px 0px 0px 0px;background-color:#FFFFFF;background-image:url(http://);}
+
+#content .feed_item{margin:0 10px 7px 10px;padding:0 0 7px 0;border-bottom:1px dashed #CCCCCC;}
+#content .feed_item_title{margin:1px 0 1px 3px;padding:1px 2px 1px 3px;color:#60B50B;font-size:17px;font-family:'Cabin';font-weight:700;}
+#content .feed_item_title a:link{color:#60B50B;text-decoration:none;}
+#content .feed_item_title a:visited{color:#60B50B;text-decoration:none;}
+#content .feed_item_title a:hover{color:#60B50B;text-decoration:underline;}
+#content .feed_item_title a:active{color:#60B50B;text-decoration:none;}
+#content .feed_item_podcast{margin:0 0 0 3px;padding:0 0 0 3px;}
+#content .feed_item_description{margin:0 0 0 3px;padding:0 2px 0 3px;color:#444;line-height:135%;}
+
+
+#footer{display:none;height:0px;margin:0px;padding:0px;color:#FCDB05;background-color:#FFFFFF;background-image:url(http://);}
